@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="icon" sizes="32x32" href="img/R.jfif">
+    <title>Age Calculator</title>
+</head>
+<body>
+    <!--Nav bar-->
+    <nav class="navbar navbar-light bg-dark">
+        <span class="navbar-brand mb-0 h1 text-light fw-bold m-1">Calcu</span>
+    </nav>
+
+    <!--Card-->
+
+    <div class="d-flex justify-content-center mt-4">
+
+        <div class="card w-50" style="width: 18rem;">
+            <img class="card-img-top" src="img/ages.jfif" alt="Card image cap">
+            <div class="card-body row">
+                <div class="col-6 inp-section">
+                    <h3 class="card-title">Age Calculator</h3>
+                    <hr>
+                    <p class="card-text">Enter your bith date to get your age</p>
+                    <input class="form-control mb-4" id="bith-date-id" type="date" />
+                    <div class="text-end">
+                        <button id="press" class="btn btn-primary">Go calc</button>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <h3 class="card-title">Results!</h3>
+                    <hr>
+                    <p class="card-text h4" id="result"> No Input Yet !</p>
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+<script src="js/all.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/index.js"></script>
+</html>
